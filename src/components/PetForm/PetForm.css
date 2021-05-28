@@ -1,0 +1,23 @@
+.pet-form {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.pet-form label {
+  margin-right: 5px;
+}
+
+.pet-form input {
+  margin-left: 5px;
+}
+
+.pet-form button {
+  padding: 0px 5px;
+}
+
+.pet-form h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}

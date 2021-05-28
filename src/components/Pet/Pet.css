@@ -1,0 +1,14 @@
+.pet {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  line-height: 1.5;
+  border: 1px solid gray;
+}
+
+.pet-btn {
+  font-weight: bold;
+  margin: 10px 3px;
+  padding: 5px;
+}

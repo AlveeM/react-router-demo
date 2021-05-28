@@ -1,0 +1,19 @@
+.pet-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pet-profile-heading {
+  font-size: 2rem;
+}
+
+.pet-profile-img {
+  max-width: 400px;
+  margin: 1.5rem;
+}
+
+.pet-profile-detail {
+  font-size: 1.4rem;
+  line-height: 1.3;
+}

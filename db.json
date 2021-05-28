@@ -1,0 +1,49 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Champ",
+      "type": "Dog",
+      "breed": "Corgi",
+      "age": 2,
+      "location": "New York City",
+      "imgSrc": "https://freemarketplace.ca/wp-content/uploads/2020/09/outstanding-litter-5f55484a5e80a.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Teddy",
+      "type": "Cat",
+      "breed": "Ragdoll",
+      "age": 3,
+      "location": "Denver",
+      "imgSrc": "https://images2.minutemediacdn.com/image/upload/c_fit,f_auto,fl_lossy,q_auto,w_728/v1555913329/shape/mentalfloss/ragdollbeauty.png"
+    },
+    {
+      "id": 3,
+      "name": "Fluffy",
+      "type": "Cat",
+      "breed": "Persian",
+      "age": 5,
+      "location": "Baltimore",
+      "imgSrc": "https://img.thrfun.com/img/200/610/breed_information_persian_x2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Misty",
+      "type": "Cat",
+      "breed": "Siberian",
+      "age": 1,
+      "location": "Boston",
+      "imgSrc": "https://pm1.narvii.com/6156/bdfdce2f49cdefd2830247a3dd91fcc47589b632_hq.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bulu",
+      "type": "Cat",
+      "breed": "Birman",
+      "age": 1,
+      "location": "Dallas",
+      "imgSrc": "https://www.catsincare.com/wp-content/uploads/2017/07/birmancat8-1030x1030.jpg"
+    }
+  ]
+}
