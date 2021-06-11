@@ -3,7 +3,7 @@ import "./PetContainer.css"
 import Pet from '../Pet/Pet'
 import PetForm from "../PetForm/PetForm";
 
-const BASE_URL = 'http://localhost:4000/pets';
+const BASE_URL = 'https://json-server-template-test.herokuapp.com/pets';
 
 function PetContainer() {
   const [pets, setPets] = useState([]);
@@ -43,7 +43,7 @@ function PetContainer() {
   }
 
   function updatePet(id, updatedPet) {
-    fetch(`http://localhost:4000/pets/${id}`, {
+    fetch(`${BASE_URL}/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -62,7 +62,7 @@ function PetContainer() {
 
   return (
     <div className="pet-container">
-      {/* <PetForm addPet={addPet} /> */}
+      <PetForm addPet={addPet} />
       <div className="pet-container-list">
         { pets.length === 0
           ? <h1>Loading...</h1>
