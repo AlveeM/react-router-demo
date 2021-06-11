@@ -3,7 +3,7 @@ import "./PetContainer.css"
 import Pet from '../Pet/Pet'
 import PetForm from "../PetForm/PetForm";
 
-const BASE_URL = 'http://localhost:4000/pets';
+const BASE_URL = 'https://json-server-template-test.herokuapp.com/pets';
 
 function PetContainer() {
   const [pets, setPets] = useState([]);

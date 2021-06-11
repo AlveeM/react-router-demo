@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import "./PetProfile.css";
 
-const BASE_URL = 'http://localhost:4000/pets'
+const BASE_URL = 'https://json-server-template-test.herokuapp.com/pets'
 
 function PetProfile() {
   const [pet, setPet] = useState({});
