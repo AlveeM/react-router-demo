@@ -26,7 +26,9 @@ function PetForm({ addPet }) {
       name: formState.name,
       type: formState.type,
       breed: formState.breed,
-      age: parseInt(formState.age)
+      age: parseInt(formState.age),
+      location: formState.location,
+      imgSrc: formState.imgSrc
     };
     addPet(pet);
   }
