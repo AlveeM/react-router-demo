@@ -2,13 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import "./PetProfile.css";
 
+const BASE_URL = 'http://localhost:4000/pets'
+
 function PetProfile() {
   const [pet, setPet] = useState({});
   const params = useParams();
   const id = params.id;
 
   useEffect(() => {
-    const URL = `http://localhost:4000/pets/${id}`;
+    const URL = `${BASE_URL}/${id}`;
     fetch(URL)
       .then(r => r.json())
       .then(petData => {

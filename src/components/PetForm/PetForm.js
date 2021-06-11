@@ -6,7 +6,9 @@ function PetForm({ addPet }) {
     name: "",
     type: "",
     breed: "",
-    age: undefined
+    age: undefined,
+    location: "",
+    imgSrc: ""
   })
 
   function handleChange(event) {
@@ -66,6 +68,24 @@ function PetForm({ addPet }) {
             type="text"
             name="age"
             value={formState.age}
+            onChange={handleChange}
+          />
+        </label>
+        <label>
+          Location:
+          <input
+            type="text"
+            name="location"
+            value={formState.location}
+            onChange={handleChange}
+          />
+        </label>
+        <label>
+          Image URL:
+          <input
+            type="text"
+            name="imgSrc"
+            value={formState.imgSrc}
             onChange={handleChange}
           />
         </label>
